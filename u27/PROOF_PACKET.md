@@ -6,7 +6,7 @@ Agent Authority Protocol
 
 ## Current Evidence
 
-This v0.1 draft is supported by repository-local evidence:
+This v0.1 release is supported by repository-local evidence:
 
 - README declares release status and project boundary.
 - Core protocol docs define Authority, Reach, and Delegation classes.
@@ -32,5 +32,4 @@ The repository is structured as a Unit27 public protocol package for Authority-R
 - This proof packet does not establish security effectiveness.
 - This proof packet does not establish compliance suitability.
 - This proof packet does not certify any agent deployment.
-- This proof packet covers the repository draft only.
-
+- This proof packet covers the current repository state only.
