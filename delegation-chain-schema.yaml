@@ -1,0 +1,44 @@
+protocol: Agent Authority Protocol
+schema: delegation-chain
+version: 0.1.0
+model: Authority-Reach-Delegation
+model_abbreviation: ARD
+
+root_principal:
+  type: human
+  id: ""
+  name: ""
+  role: ""
+
+agent:
+  id: ""
+  name: ""
+  authority_class: ""
+  reach_class: ""
+  delegation_class: ""
+
+delegated_authority:
+  purpose: ""
+  allowed_actions: []
+  prohibited_actions: []
+  systems: []
+  data_classes: []
+  expiration: ""
+  approval_required: true
+
+delegation_chain:
+  - delegator:
+      id: ""
+      type: human
+    delegate:
+      id: ""
+      type: agent
+    authority_granted: []
+    scope_limits: []
+    evidence_required: []
+    expiration: ""
+
+revocation:
+  kill_switch_owner: ""
+  revocation_method: ""
+  rollback_plan: ""

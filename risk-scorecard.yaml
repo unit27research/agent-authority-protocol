@@ -1,0 +1,63 @@
+protocol: Agent Authority Protocol
+version: 0.1.0
+model: Authority-Reach-Delegation
+model_abbreviation: ARD
+
+classification:
+  authority:
+    class: A0
+    name: Observer
+  reach:
+    class: R0
+    name: Local / No External Effect
+  delegation:
+    class: D0
+    name: No Delegation
+
+derived_risk:
+  band: Minimal
+  rationale: ""
+
+agent:
+  name: ""
+  version: ""
+  owner: ""
+  business_unit: ""
+  human_sponsor: ""
+  runtime_environment: ""
+  model_family: ""
+  harness: ""
+  deployment_status: proposed
+
+controls:
+  human_approval_required: false
+  approval_actions: []
+  logging_required: true
+  audit_trail_required: false
+  rollback_required: false
+  kill_switch_required: false
+  periodic_review_required: false
+  review_cadence_days: null
+  authority_expiration_date: null
+
+systems:
+  tools: []
+  data_classes: []
+  external_effects: []
+  credentials: []
+
+delegation:
+  can_invoke_agents: false
+  can_orchestrate_agents: false
+  can_create_agents: false
+  can_delegate_authority: false
+  max_delegation_depth: 0
+
+evidence:
+  prompt_logs: false
+  tool_call_logs: false
+  approval_records: false
+  decision_logs: false
+  output_artifacts: false
+  delegation_graph: false
+  retention_days: null
