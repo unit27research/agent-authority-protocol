@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify the public release surface for the Agent Authority Protocol draft."""
+"""Verify the public release surface for Agent Authority Protocol."""
 
 from pathlib import Path
 import sys
