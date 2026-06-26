@@ -58,6 +58,14 @@ It is useful when a team needs to answer:
 - Can it invoke, coordinate, create, or empower other agents?
 - What evidence should be retained before and after deployment?
 
+## Relation To AI Agent Governance
+
+This project sits inside the broader AI agent governance, agentic AI governance, agent security, and agent control systems conversation.
+
+Its scope is narrower than a governance platform or runtime enforcement toolkit. Agent Authority Protocol focuses on the pre-deployment authority classification step: what the agent may do, what it can affect, and whether authority can move through delegation chains.
+
+Use it before governance, identity, security, or reliability tooling needs to decide which controls apply.
+
 ## Where It Fits
 
 Agent Authority Protocol is not part of the Unit27 Field Kit Suite operating sequence yet.

@@ -22,6 +22,14 @@ Sources:
 - https://genai.owasp.org/resource/aiuc-1-crosswalks-owasp-top-10-for-agentic-applications/
 - https://genai.owasp.org/resource/state-of-agentic-ai-security-and-governance/
 
+## Microsoft Agent Governance Toolkit
+
+Microsoft's Agent Governance Toolkit addresses a broader AI agent governance surface, including policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous agents.
+
+The Agent Authority Protocol has a narrower role. It can be used before runtime governance tooling to record the agent's Authority-Reach-Delegation classification and identify which authority, reach, delegation, evidence, and review controls should be considered.
+
+Source: https://github.com/microsoft/agent-governance-toolkit
+
 ## Autonomy-Level Frameworks
 
 Academic and industry work already classifies AI agents by autonomy level. For example, "Levels of Autonomy for AI Agents" treats autonomy level as a deliberate design decision and describes escalating levels through the user's role in relation to the agent.
