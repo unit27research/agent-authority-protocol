@@ -133,6 +133,8 @@ The key boundary is `A6`: an agent has moved beyond acting inside its own workfl
 
 ## Documents
 
+- [Working Paper PDF](paper/agent-authority-protocol-working-paper.pdf)
+- [Working Paper Markdown](paper/agent-authority-protocol-working-paper.md)
 - [Protocol Overview](protocol.md)
 - [Authority Classes](authority-classes.md)
 - [Reach Classes](reach-classes.md)
