@@ -22,7 +22,7 @@ The resulting `A#-R#-D#` value is the agent's ARD classification.
 
 1. Identify what the agent is intended to do.
 2. Identify the strongest action the agent may take.
-3. Identify the highest-impact domain the agent can affect.
+3. Identify the highest-reach domain the agent can affect.
 4. Identify whether the agent can invoke, coordinate, create, or authorize other agents.
 5. Assign one class for each ARD dimension.
 6. Derive the risk band.
@@ -61,6 +61,8 @@ expiration_date: ""
 The highest-risk dimension should dominate the review process.
 
 A low-autonomy agent with financial, legal, compliance, production, or delegation reach may still require high-risk controls.
+
+Reach is classified by the affected domain, not by a prediction of eventual harm. Reviewers should classify what the agent can touch before deciding how severe a particular incident might become.
 
 ## Renewal Principle
 

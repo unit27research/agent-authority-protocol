@@ -30,11 +30,31 @@ The Agent Authority Protocol has a narrower role. It can be used before runtime 
 
 Source: https://github.com/microsoft/agent-governance-toolkit
 
+## Agent Governance Crosswalks
+
+Practitioner cross-framework work has begun mapping agent capabilities to compliance frameworks and runtime controls. Kenney's 2026 cross-framework reference, for example, maps GDPR, the EU AI Act, NIST AI RMF, and ISO/IEC 42001 onto agent capabilities such as planning, tool use, memory, delegation, and adaptation.
+
+The Agent Authority Protocol can supply a prior authority record for that kind of control mapping. Its role is to classify the authority grant those controls are meant to protect.
+
+Source: Kenney, N. M. "Governing Agents: A Practitioner's Cross-Framework Reference. Mapping GDPR, the EU AI Act, NIST AI RMF, and ISO/IEC 42001 to AI Agents." First Edition, Digital 520, 2026.
+
+## Access Control and IAM
+
+Long-running access-control and IAM practice includes role-based access control, attribute-based access control, least privilege, service accounts, OAuth, and OpenID Connect. These systems define or enforce who or what may use a resource under particular conditions.
+
+The Agent Authority Protocol addresses an earlier review artifact: the intended authority shape of an agent deployment before credentials, scopes, policies, or delegation chains are configured. It is a placement record rather than an enforcement substitute.
+
+Sources:
+
+- https://csrc.nist.gov/projects/role-based-access-control
+- https://www.rfc-editor.org/rfc/rfc6749
+- https://openid.net/developers/how-connect-works/
+
 ## Autonomy-Level Frameworks
 
 Academic and industry work already classifies AI agents by autonomy level. For example, "Levels of Autonomy for AI Agents" treats autonomy level as a deliberate design decision and describes escalating levels through the user's role in relation to the agent.
 
-The Agent Authority Protocol builds on this general direction, but separates Authority from Reach and Delegation.
+The Agent Authority Protocol treats autonomy as one input while classifying the agent's granted action role. Authority names what the deployment has been allowed to carry into an action path.
 
 Source: https://arxiv.org/abs/2506.12469
 
@@ -93,9 +113,7 @@ Sources:
 
 ## Distinct Contribution
 
-The protocol's distinct contribution is not the discovery of agent authority as a problem.
-
-Its contribution is a small, usable ARD classification packet:
+The protocol's distinct contribution is a small, usable ARD classification packet:
 
 - Authority: what the agent may do
 - Reach: what the agent can affect

@@ -14,6 +14,8 @@ Delegation describes whether an agent can invoke, coordinate, create, or authori
 
 `D4` is the highest-risk delegation class because it allows authority to propagate.
 
+`A6` and `D4` are related without being identical. `D4` describes a delegation path in which authority can propagate, including approval-gated or policy-bound propagation. `A6` describes discretionary authority over the actor set. If an agent can choose another actor's scope, credentials, persistence, or action rights, the deployment has entered `A6` territory.
+
 Any `D4` agent should require:
 
 - explicit review
@@ -26,7 +28,6 @@ Any `D4` agent should require:
 
 ## Classification Guidance
 
-Classify by what the agent is able to delegate, not only by what it usually delegates.
+Classify by the highest delegation path the agent is able to use, rather than by its usual behavior.
 
-If the agent can create or authorize another agent with persistent authority, classify it as `D4`.
-
+If the agent can create or authorize another agent with persistent authority, classify the delegation path as `D4`. If the agent can also decide the new actor's authority without a fixed approval gate, classify the Authority axis as `A6`.

@@ -65,12 +65,15 @@ Use this template before deploying an AI agent with tools, credentials, persiste
 |---|---|---|---|
 |  |  |  |  |
 
+For approval-gated action, retain the approval packet shown to the human reviewer, including preselected fields, alternatives presented or omitted, and the fields still editable before approval.
+
 ## 8. Evidence and Logging
 
 - Prompt logs:
 - Tool-call logs:
 - Decision logs:
 - Approval records:
+- Approval packet shown to human:
 - Output artifacts:
 - Error logs:
 - Retention period:
@@ -91,4 +94,3 @@ Use this template before deploying an AI agent with tools, credentials, persiste
 - Abuse cases:
 - Open questions:
 - Approval decision:
-

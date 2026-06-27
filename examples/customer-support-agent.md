@@ -6,7 +6,7 @@
 A4-R3-D1
 ```
 
-Derived risk: Moderate to High
+Derived risk: High
 
 ## Purpose
 
@@ -36,4 +36,3 @@ Responds to common customer support requests within approved categories.
 - Human review required for refunds, account changes, complaints, legal threats, or safety-sensitive content.
 - Unsupported issue categories route to human support.
 - Response logs retained for review.
-

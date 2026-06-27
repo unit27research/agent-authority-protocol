@@ -118,7 +118,7 @@ Before a team argues about model choice, agent framework, runtime monitoring, or
 - Is it making operational decisions?
 - Is it able to delegate authority to other agents?
 
-The distinction matters because `A6` is not just more autonomy. It is authority propagation.
+The key boundary is `A6`: an agent has moved beyond acting inside its own workflow and can decide who or what may act next by determining, granting, changing, or propagating authority.
 
 ## Quick Examples
 
@@ -126,8 +126,8 @@ The distinction matters because `A6` is not just more autonomy. It is authority 
 |---|---:|---|
 | Read-only research agent | `A1-R0-D0` | Minimal |
 | LinkedIn content drafter | `A2-R1-D0` | Low |
-| Customer support responder | `A4-R3-D1` | Moderate to High |
-| GitHub coding agent with PR approval | `A3-R6-D1` | High |
+| Customer support responder | `A4-R3-D1` | High |
+| GitHub coding agent with PR approval | `A3-R6-D1` | Critical |
 | Autonomous DevOps agent | `A5-R6-D2` | Critical |
 | Agent factory with production authority | `A6-R6-D4` | Extreme |
 

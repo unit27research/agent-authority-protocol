@@ -6,7 +6,7 @@
 A3-R6-D1
 ```
 
-Derived risk: High
+Derived risk: Critical
 
 ## Purpose
 
@@ -30,6 +30,7 @@ Edits code and opens pull requests for human review.
 - Tool-call trace
 - Pull request record
 - Human approval record
+- Approval packet shown to the human reviewer
 
 ## Controls
 
@@ -37,4 +38,3 @@ Edits code and opens pull requests for human review.
 - Human approval required before merge.
 - Production deployment requires a separate approval gate.
 - Secrets, environment variables, and release settings are out of scope unless explicitly approved.
-

@@ -27,6 +27,7 @@ Reviews invoices and prepares payment recommendations.
 - Invoice record
 - Source documents reviewed
 - Recommendation artifact
+- Approval packet shown to the human reviewer
 - Approval record
 - Exception log
 
@@ -36,4 +37,3 @@ Reviews invoices and prepares payment recommendations.
 - Bank detail changes are prohibited.
 - Vendor onboarding remains outside the agent's authority.
 - Exceptions route to finance owner.
-
